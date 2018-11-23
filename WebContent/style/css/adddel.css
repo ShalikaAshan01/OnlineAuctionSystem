@@ -1,0 +1,95 @@
+@charset "ISO-8859-1";
+
+#products {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#products td, #products th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#products tr:nth-child(even){background-color: #f2f2f2;}
+
+#products tr:hover {background-color: #ddd;}
+
+#products th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #004000;
+    color: #ccff90;
+    
+	}
+    
+.button1{
+	background-color:#008040;
+	border:none;
+	color:white;
+	padding:12px 30px;
+	text-align:center;
+	font-size:14px;
+	margin:4px 2px;
+	opacity: 0.8;
+	transition: 0.3s;
+	display: inline-block;
+	text-decoration:none;
+	cursor:pointer;
+	}
+	
+	.button2{
+	background-color:#ff0000;
+	border:none;
+	color:white;
+	padding:12px 30px;
+	text-align:center;
+	font-size:14px;
+	margin:4px 2px;
+	opacity: 0.8;
+	transition: 0.3s;
+	display: inline-block;
+	text-decoration:none;
+	cursor:pointer;
+	}
+
+	.button:hover {opacity: 3}
+	.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}s
